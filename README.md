@@ -1,4 +1,4 @@
-# API_YamDB
+# INFRA_SP2
 
 REST API для сервиса YaMDb — базы отзывов о фильмах, книгах и музыке.
 
@@ -12,6 +12,8 @@ REST API для сервиса YaMDb — базы отзывов о фильма
 Поддерживает методы GET, POST, PUT, PATCH, DELETE
 
 Предоставляет данные в формате JSON
+
+Запуск проекта осуществляется с помощью docker-compose
 
 ## Стек технологий
 
@@ -183,3 +185,9 @@ GET http://localhost/api/v1/titles/{title_id}/reviews/{review_id}/comments/{comm
   "pub_date": "2019-08-24T14:15:22Z"
 }
 ```
+
+## Автор:
+
+Анатолий Беседин
+
+GitHub: https://github.com/BesedinT  
